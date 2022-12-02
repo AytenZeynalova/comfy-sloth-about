@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1400px){
+    .container{
+        width: 1320px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 540px;
+        margin: 0 auto;
+    }
+}
+.section-center {
+    margin: 0 auto !important;
+}
+.line{
+    background-color: rgb(234, 222, 215);
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    
+    h3{
+        font-size: 2rem;
+        color: #453227;
+
+        margin-left: 0% !important;
+        
+        a{
+            
+            color: #795744;;
+            padding: 0.5rem;
+            transition: all 0.3s linear;
+            text-decoration: none;
+            &:hover{
+            color: #453227;
+            
+            }
+        }
+    }
+}
+
+
+
+.our-story{
+    padding: 5rem 0;
+    
+    .our-story-div{
+       
+        article{
+            margin-left: 64px;
+            width: 553px;
+            height: 500px;
+            
+            p{
+                line-height: 2;
+    max-width: 45em;
+    margin: 2rem auto 0px;
+    color: #617d98;
+            }
+        }
+    }
+
+    img{
+        width: 553px;
+        height: 500px;
+    
+    border-radius: 0.25rem;
+    height: 500px;
+    object-fit: cover;
+    }
+
+    .title{
+        h2{
+            margin-bottom: 0.75rem;
+            color: #102a42;
+        }
+        .underline{
+            // text-align: left;
+            height: 0.25rem;
+            width: 6rem;
+            background-color: #ab7a5f;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1800px){
+.our-story-div{
+    display: flex;
+}
+}
+
+@media screen and (max-width: 992px){
+    
+    .our-story-div{
+        
+        img{
+            display: inline;
+            width: 890px;
+        }
+
+        article{
+            display: inline;
+            width: 890px;
+
+            .title{
+               padding-top: 5rem;
+            }
+        }
+
+    }
+}
+
+
+@media screen and (min-width: 800px){
+    body, h5 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 800px){
+    h1, h2, h3, h4 {
+        line-height: 1;
+    }
+}
+
+@media screen and (min-width: 800px){
+    h2 {
+        font-size: 2.5rem;
+    }
+}
